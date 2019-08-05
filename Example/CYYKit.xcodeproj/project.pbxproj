@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0637B7D3CECB6C30BBF3455D /* Pods_CYYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B512FA384F14CBEF3E3FDB4 /* CYYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYYKit.podspec; path = ../CYYKit.podspec; sourceTree = "<group>"; };
+		1B512FA384F14CBEF3E3FDB4 /* CYYKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYYKit.podspec; path = ../CYYKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* CYYKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYYKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		A4424063CBFA9C538EAB4E47 /* Pods-CYYKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYYKit_Example/Pods-CYYKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A86A11A7C9CD5450DB4345EF /* Pods-CYYKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYYKit_Tests/Pods-CYYKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B34865BC7A8EE7038BF3687B /* Pods-CYYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYYKit_Tests/Pods-CYYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B6E7CB730CDC2689E1FD6683 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6E7CB730CDC2689E1FD6683 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5EDA9DE7794FD958F70E45C /* Pods_CYYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1DF952B9BE30C9D3DE23F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA1DF952B9BE30C9D3DE23F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EAA99788DE01B135DACF29A1 /* Pods-CYYKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CYYKit_Example/Pods-CYYKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				A86A11A7C9CD5450DB4345EF /* Pods-CYYKit_Tests.debug.xcconfig */,
 				B34865BC7A8EE7038BF3687B /* Pods-CYYKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

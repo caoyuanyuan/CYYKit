@@ -1,0 +1,6 @@
+framework module Pods_CYYKit_Tests {
+  umbrella header "Pods-CYYKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

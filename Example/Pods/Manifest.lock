@@ -1,0 +1,27 @@
+PODS:
+  - CYYKit (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CYYKit (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CYYKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYYKit: 083081c58add23925acd1592918024469329f01d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 4d55f278aa371f6bd15cc19c62c0817be32c6ce7
+
+COCOAPODS: 1.6.1
